@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles0.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <style>
+.mySlides {display:none;}
+</style>
+        <title>Animal shelter</title>
+    </head>
+    <body>
+      <div class="header">
+      <h1>Animal Adoption Center <br> BigHeart</h1>
+      </div>
+      <div class="nav">
+          <a class="active" href="#index">Main page</a>
+    
+      <a href="second.html">Our dogs</a>
+      <a href="third.html">Our cats</a>
+      <a href="fourth.html">Information</a>
+     
+      </div> <br>
+      <div class="section">
+        <p>BigHeart aims to protect all animals to the best of our abilities. We focus on providing aid to homeless animals. During the last 5 years, we have taken approximately 2 000 homeless animals into our care and found new homes for them. Furthermore, we give advice on animal protection and animal care. We invite you to learn more about us and our little friends. </p>
+        </div>
+        
+        
+       
+      <div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://im.wampi.ru/2022/12/04/Dog-Shelter.jpg" alt="Our shelter" style="width:35%">
+  <img class="mySlides" src="https://im.wampi.ru/2022/12/04/GettyImages-565299221.jpg" alt="Adoption center" style="width:35%">
+  <img class="mySlides" src="https://ie.wampi.ru/2022/12/04/post_5ccd7fe634bfc.jpg" alt="Our people and animals" style="width:35%">
+  
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+<div class="paragraph">
+  <div class="position-absolute top-0 start-100 translate-middle">
+      </div>
+      </div>
+
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>BigHeart</h3>
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					·
+					<a href="#">Our dogs</a>
+					·
+					<a href="#">Our cats</a>
+					·
+					<a href="#">Information</a>
+				
+				</p>
+
+				<p class="footer-company-name">BigHeart © 2022</p>
+
+			
+
+			</div>
+
+			<div class="footer-right">
+
+				<p>Contact Us</p>
+
+				<form action="#" method="post">
+
+					<input type="text" name="email" placeholder="Email">
+					<textarea name="message" placeholder="Message"></textarea>
+					<button>Send</button>
+
+				</form>
+
+			</div>
+
+		</footer>
+       
+     </body>
+        </html>

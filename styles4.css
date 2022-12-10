@@ -1,0 +1,268 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+    
+  font: normal 50px 'Roboto', cursive;
+    position: relative;
+	width: 300px;
+	height: 80px;
+	padding: 10px;
+	margin-right: 20px;
+	
+	color: #FF7D0A;
+	text-shadow: 1px 1px 1px #333;
+
+}
+
+h2 {
+color: #FF7D0A;
+	text-shadow: 1px 1px 1px #333;
+}
+
+.nav {
+background: rgb(230,157,86);
+    background: linear-gradient(90deg, rgba(230,157,86,1) 0%, rgba(226,120,47,1) 35%, rgba(199,148,74,1) 100%);
+align-items: center;
+ justify-content: space-between;
+ padding: 20px;
+ display: flex;
+ font-size: 18px;
+ 
+}
+
+
+.footer-distributed{
+	background: rgb(230,157,86);
+    background: linear-gradient(90deg, rgba(230,157,86,1) 0%, rgba(226,120,47,1) 35%, rgba(199,148,74,1) 100%);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	
+
+   text-align: center;  
+   vertical-align: middle; 
+   position: relative;
+   
+   height: 30%;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	display: inline-block;
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+.section {
+  width: 100%;
+  display: inline-block;
+  background: #5c666b;
+  height: 20px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+
+}
+
+
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Roboto', cursive;
+	margin: 0 0 10px;
+}
+
+
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  white;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  white;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+	display: inline-block;
+	margin-top: 8px;
+	margin-right: 5px;
+	
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  white;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+margin-left: 8px;
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FF7D0A;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  black;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: #FF7D0A;
+	text-shadow: 1px 1px 1px #333;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }  }
